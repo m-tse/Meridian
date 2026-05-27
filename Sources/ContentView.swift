@@ -384,6 +384,8 @@ struct ContentView: View {
             DatePicker("", selection: $pickerDate, displayedComponents: .date)
                 .datePickerStyle(.graphical)
                 .environment(\.timeZone, pickerTimeZone)
+                .scaleEffect(1.85)
+                .frame(width: 350, height: 400)
                 .padding(.horizontal, 16)
                 .onChange(of: pickerDate) { newDate in
                     let now = Date()
