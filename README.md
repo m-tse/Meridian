@@ -33,7 +33,7 @@ It's also designed to be dead simple to read. Day and night hours are visually d
 ### Homebrew
 
 ```bash
-brew install m-tse/timezones/timezones
+brew install m-tse/tap/meridian
 ```
 
 The app is signed and notarized with an Apple Developer ID.
@@ -41,7 +41,7 @@ The app is signed and notarized with an Apple Developer ID.
 ### Update
 
 ```bash
-brew update && brew upgrade --cask timezones
+brew update && brew upgrade --cask meridian
 ```
 
 ### From source
